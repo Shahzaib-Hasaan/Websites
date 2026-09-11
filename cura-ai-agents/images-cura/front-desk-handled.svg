@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1200" width="880" height="1200" role="img">
+<defs>
+  <linearGradient id="f-room" x1="0" y1="0" x2="0.34" y2="1">
+    <stop offset="0" stop-color="#e8f4f4"/><stop offset=".48" stop-color="#b8dada"/><stop offset="1" stop-color="#255f5f"/>
+  </linearGradient>
+  <radialGradient id="f-glow" cx=".46" cy=".26" r=".62">
+    <stop offset="0" stop-color="#fff" stop-opacity=".86"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="f-hub" x1=".15" y1="0" x2=".85" y2="1">
+    <stop offset="0" stop-color="#5fa5a5"/><stop offset=".5" stop-color="#2c6d6d"/><stop offset="1" stop-color="#1f5a5a"/>
+  </linearGradient>
+  <linearGradient id="f-sheen" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".52"/><stop offset=".45" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="f-card" x1="0" y1="0" x2=".25" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#e6f3f3" stop-opacity=".93"/>
+  </linearGradient>
+  <filter id="f-soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+  <filter id="f-lift" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#123c3c" flood-opacity=".32"/></filter>
+  <filter id="f-drop" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="9" stdDeviation="13" flood-color="#123c3c" flood-opacity=".18"/></filter>
+</defs>
+
+<rect width="880" height="1200" fill="url(#f-room)"/>
+<ellipse cx="420" cy="230" rx="340" ry="260" fill="url(#f-glow)"/>
+<g filter="url(#f-soft)" opacity=".45">
+  <circle cx="756" cy="196" r="80" fill="#fff" opacity=".38"/>
+  <circle cx="112" cy="470" r="62" fill="#a8cccc" opacity=".5"/>
+  <circle cx="806" cy="742" r="54" fill="#fff" opacity=".3"/>
+</g>
+
+<!-- orbit rings -->
+<g fill="none" stroke="#ffffff" stroke-linecap="round">
+  <circle cx="440" cy="330" r="182" stroke-opacity=".30" stroke-width="2.5"/>
+  <circle cx="440" cy="330" r="246" stroke-opacity=".18" stroke-width="2.5"/>
+</g>
+
+<!-- clock hub -->
+<ellipse cx="440" cy="470" rx="150" ry="26" fill="#123c3c" opacity=".22" filter="url(#f-soft)"/>
+<g filter="url(#f-lift)">
+  <circle cx="440" cy="330" r="118" fill="url(#f-hub)"/>
+  <circle cx="440" cy="330" r="118" fill="url(#f-sheen)"/>
+  <circle cx="440" cy="330" r="117" fill="none" stroke="#ffffff" stroke-opacity=".38" stroke-width="2"/>
+  <g stroke="#fff" stroke-width="10" stroke-linecap="round" fill="none">
+    <circle cx="440" cy="330" r="54"/>
+    <path d="M440 292v38l27 16"/>
+  </g>
+</g>
+<text x="440" y="512" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="29" font-weight="700" fill="#124848">Around the clock</text>
+
+<!-- six job cards -->
+<g font-family="Inter,system-ui,sans-serif">
+  <g filter="url(#f-drop)"><rect x="92" y="556" width="336" height="132" rx="26" fill="url(#f-card)"/></g>
+  <circle cx="156" cy="622" r="31" fill="#dcecec"/>
+  <path d="M142 612h28M142 622h28M142 632h20" stroke="#2c6d6d" stroke-width="5" stroke-linecap="round"/>
+  <text x="204" y="614" font-size="25" font-weight="700" fill="#143434">Booking</text>
+  <text x="204" y="648" font-size="21" fill="#5c8686">24/7, every provider</text>
+
+  <g filter="url(#f-drop)"><rect x="452" y="556" width="336" height="132" rx="26" fill="url(#f-card)"/></g>
+  <circle cx="516" cy="622" r="31" fill="#dcecec"/>
+  <path d="M502 622h28M522 612l10 10-10 10" stroke="#2c6d6d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="564" y="614" font-size="25" font-weight="700" fill="#143434">Routing</text>
+  <text x="564" y="648" font-size="21" fill="#5c8686">Right doctor, first time</text>
+
+  <g filter="url(#f-drop)"><rect x="92" y="712" width="336" height="132" rx="26" fill="url(#f-card)"/></g>
+  <circle cx="156" cy="778" r="31" fill="#dcecec"/>
+  <path d="M156 762a15 15 0 0 1 15 15v13l5 8h-40l5-8v-13a15 15 0 0 1 15-15zM150 802h12" stroke="#2c6d6d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="204" y="770" font-size="25" font-weight="700" fill="#143434">Reminders</text>
+  <text x="204" y="804" font-size="21" fill="#5c8686">Confirms before it slips</text>
+
+  <g filter="url(#f-drop)"><rect x="452" y="712" width="336" height="132" rx="26" fill="url(#f-card)"/></g>
+  <circle cx="516" cy="778" r="31" fill="#dcecec"/>
+  <path d="M531 772a17 17 0 1 1-6-11m6-9v13h-13" stroke="#2c6d6d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="564" y="770" font-size="25" font-weight="700" fill="#143434">180-day recall</text>
+  <text x="564" y="804" font-size="21" fill="#5c8686">Dormant patients back</text>
+
+  <g filter="url(#f-drop)"><rect x="92" y="868" width="336" height="132" rx="26" fill="url(#f-card)"/></g>
+  <circle cx="156" cy="934" r="31" fill="#dcecec"/>
+  <path d="M147 926a9 9 0 1 1 11 9v7m0 11v1" stroke="#2c6d6d" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <text x="204" y="926" font-size="25" font-weight="700" fill="#143434">FAQs</text>
+  <text x="204" y="960" font-size="21" fill="#5c8686">Hours, insurance, records</text>
+
+  <g filter="url(#f-drop)"><rect x="452" y="868" width="336" height="132" rx="26" fill="url(#f-card)"/></g>
+  <circle cx="516" cy="934" r="31" fill="#dcecec"/>
+  <path d="M525 926a15 15 0 1 1-15-15 12 12 0 0 0 15 15z" stroke="#2c6d6d" stroke-width="5" stroke-linejoin="round" fill="none"/>
+  <text x="564" y="926" font-size="25" font-weight="700" fill="#143434">After hours</text>
+  <text x="564" y="960" font-size="21" fill="#5c8686">Nights, weekends, overflow</text>
+</g>
+
+<g filter="url(#f-lift)"><rect x="92" y="1042" width="696" height="112" rx="30" fill="#1f5a5a"/></g>
+<circle cx="150" cy="1098" r="10" fill="#9089f0"/>
+<text x="452" y="1090" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="32" font-weight="700" fill="#fff">Six jobs. Zero missed calls.</text>
+<text x="452" y="1128" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="23" fill="#c8e2e2">Handled on every channel, every shift</text>
+</svg>

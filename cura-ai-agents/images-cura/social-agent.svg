@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1200" width="880" height="1200" role="img">
+<defs>
+  <linearGradient id="s-room" x1="0" y1="0" x2="0.32" y2="1">
+    <stop offset="0" stop-color="#e8f4f4"/><stop offset=".5" stop-color="#b8dada"/><stop offset="1" stop-color="#2c6d6d"/>
+  </linearGradient>
+  <radialGradient id="s-glow" cx=".5" cy=".24" r=".62">
+    <stop offset="0" stop-color="#fff" stop-opacity=".84"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="s-badge" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#5aa0a0"/><stop offset="1" stop-color="#1f5a5a"/>
+  </linearGradient>
+  <linearGradient id="s-badge2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4a9494"/><stop offset="1" stop-color="#255f5f"/>
+  </linearGradient>
+  <linearGradient id="s-sheen" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="s-card" x1="0" y1="0" x2=".3" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".98"/><stop offset="1" stop-color="#e6f3f3" stop-opacity=".95"/>
+  </linearGradient>
+  <linearGradient id="s-me" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4a9494"/><stop offset="1" stop-color="#1f5a5a"/>
+  </linearGradient>
+  <filter id="s-soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+  <filter id="s-lift" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#123c3c" flood-opacity=".30"/></filter>
+  <filter id="s-drop" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#123c3c" flood-opacity=".18"/></filter>
+</defs>
+<rect width="880" height="1200" fill="url(#s-room)"/>
+<g id="safe-fit" transform="translate(440,600) scale(0.86) translate(-440,-600)">
+
+
+<ellipse cx="440" cy="200" rx="340" ry="250" fill="url(#s-glow)"/>
+<g filter="url(#s-soft)" opacity=".45">
+  <circle cx="126" cy="300" r="70" fill="#fff" opacity=".38"/>
+  <circle cx="800" cy="640" r="58" fill="#a8cccc" opacity=".5"/>
+</g>
+<ellipse cx="440" cy="1006" rx="272" ry="32" fill="#123c3c" opacity=".22" filter="url(#s-soft)"/>
+
+<g filter="url(#s-lift)">
+  <rect x="204" y="146" width="200" height="200" rx="56" fill="url(#s-badge)"/>
+  <rect x="204" y="146" width="200" height="200" rx="56" fill="url(#s-sheen)"/>
+  <rect x="244" y="186" width="120" height="120" rx="36" fill="none" stroke="#fff" stroke-width="11"/>
+  <circle cx="304" cy="246" r="32" fill="none" stroke="#fff" stroke-width="11"/>
+  <circle cx="344" cy="206" r="10" fill="#fff"/>
+  <rect x="476" y="146" width="200" height="200" rx="56" fill="url(#s-badge2)"/>
+  <rect x="476" y="146" width="200" height="200" rx="56" fill="url(#s-sheen)"/>
+  <path d="M600 202h-24c-11 0-19 8-19 19v25h-24v32h24v80h34v-80h26l6-32h-32v-19c0-5 4-7 9-7h22z" fill="#fff"/>
+</g>
+
+<g filter="url(#s-lift)"><rect x="120" y="396" width="640" height="556" rx="32" fill="url(#s-card)"/></g>
+<g font-family="Inter,system-ui,sans-serif" font-size="24">
+  <circle cx="182" cy="458" r="27" fill="#c4e2e2"/>
+  <text x="228" y="452" font-size="26" font-weight="700" fill="#143434">@laura.m</text>
+  <text x="228" y="484" font-size="21" fill="#7fa3a3">via Instagram DM</text>
+  <rect x="156" y="520" width="392" height="98" rx="26" fill="#dcecec"/>
+  <text x="188" y="560" fill="#143434">Are you taking new</text>
+  <text x="188" y="596" fill="#143434">patients this month?</text>
+  <g filter="url(#s-drop)"><rect x="242" y="642" width="468" height="138" rx="26" fill="url(#s-me)"/></g>
+  <text x="274" y="682" fill="#fff">Yes! I have Friday 3:40</text>
+  <text x="274" y="718" fill="#fff">or Monday 9:20 open &#8212;</text>
+  <text x="274" y="754" fill="#fff">which suits you?</text>
+  <g filter="url(#s-drop)"><rect x="156" y="806" width="554" height="106" rx="24" fill="#fff"/></g>
+  <circle cx="212" cy="859" r="27" fill="#2c6d6d"/>
+  <path d="M200 859l8 9 16-18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="258" y="850" font-size="25" font-weight="700" fill="#143434">Booked from a DM</text>
+  <text x="258" y="886" font-size="21" fill="#2c6d6d">Fri 3:40 PM &#183; no staff touch</text>
+</g>
+
+<g filter="url(#s-drop)"><rect x="230" y="996" width="420" height="76" rx="38" fill="#fff" fill-opacity=".95"/></g>
+<text x="440" y="1044" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="28" font-weight="700" fill="#1f5a5a">Replies in seconds</text>
+<g filter="url(#s-drop)"><rect x="286" y="1096" width="308" height="72" rx="36" fill="#1f5a5a"/></g>
+<circle cx="332" cy="1132" r="9" fill="#9089f0"/>
+<text x="440" y="1142" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="28" font-weight="700" fill="#fff" letter-spacing="1">DM &#8594; BOOKED</text>
+</g>
+</svg>
