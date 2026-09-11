@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="624" height="159" viewBox="0 0 624 159" fill="none">
+  <!-- Mark: a speech/call bubble with a signal arc, echoing "every call answered" -->
+  <g transform="translate(8,20)">
+    <rect x="0" y="0" width="118" height="118" rx="34" fill="#9089F0"/>
+    <path d="M34 46c0-6.6 5.4-12 12-12h26c6.6 0 12 5.4 12 12v22c0 6.6-5.4 12-12 12H56l-14 12V80h-8V46z"
+          fill="#fff"/>
+    <circle cx="59" cy="57" r="5" fill="#9089F0"/>
+    <path d="M74 48a13 13 0 0 1 0 18" stroke="#9089F0" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M84 41a23 23 0 0 1 0 32" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.55"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="150" y="100"
+        font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="72" font-weight="700" letter-spacing="-1.5" fill="#1A1A1A">Cura</text>
+  <text x="330" y="100"
+        font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="72" font-weight="700" letter-spacing="-1.5" fill="#9089F0">AI</text>
+</svg>

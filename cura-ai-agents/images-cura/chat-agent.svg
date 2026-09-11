@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1200" width="880" height="1200" role="img">
+<defs>
+  <linearGradient id="c-room" x1="0" y1="0" x2="0.3" y2="1">
+    <stop offset="0" stop-color="#e8f4f4"/><stop offset=".5" stop-color="#b8dada"/><stop offset="1" stop-color="#2c6d6d"/>
+  </linearGradient>
+  <radialGradient id="c-glow" cx=".62" cy=".3" r=".6">
+    <stop offset="0" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="c-glass" x1="0" y1="0" x2=".3" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".98"/><stop offset="1" stop-color="#e6f3f3" stop-opacity=".95"/>
+  </linearGradient>
+  <linearGradient id="c-bar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#dcefef"/><stop offset="1" stop-color="#c4e2e2"/>
+  </linearGradient>
+  <linearGradient id="c-me" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4a9494"/><stop offset="1" stop-color="#1f5a5a"/>
+  </linearGradient>
+  <filter id="c-soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+  <filter id="c-lift" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#123c3c" flood-opacity=".30"/></filter>
+  <filter id="c-drop" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#123c3c" flood-opacity=".18"/></filter>
+</defs>
+<rect width="880" height="1200" fill="url(#c-room)"/>
+<g id="safe-fit" transform="translate(440,600) scale(0.86) translate(-440,-600)">
+
+
+<ellipse cx="560" cy="230" rx="330" ry="250" fill="url(#c-glow)"/>
+<g filter="url(#c-soft)" opacity=".45">
+  <circle cx="120" cy="210" r="78" fill="#fff" opacity=".4"/>
+  <circle cx="790" cy="560" r="60" fill="#a8cccc" opacity=".5"/>
+</g>
+<ellipse cx="440" cy="1058" rx="270" ry="34" fill="#123c3c" opacity=".22" filter="url(#c-soft)"/>
+<g filter="url(#c-lift)">
+  <rect x="104" y="176" width="672" height="872" rx="30" fill="url(#c-glass)"/>
+  <path d="M104 206a30 30 0 0 1 30-30h612a30 30 0 0 1 30 30v52H104z" fill="url(#c-bar)"/>
+  <circle cx="150" cy="217" r="10" fill="#8fbcbc"/><circle cx="184" cy="217" r="10" fill="#a8cccc"/><circle cx="218" cy="217" r="10" fill="#c0dcdc"/>
+  <rect x="256" y="205" width="330" height="24" rx="12" fill="#fff" fill-opacity=".85"/>
+</g>
+<g font-family="Inter,system-ui,sans-serif" font-size="25">
+  <rect x="150" y="318" width="378" height="98" rx="26" fill="#dcecec"/>
+  <text x="182" y="358" fill="#143434">Do you take my</text>
+  <text x="182" y="394" fill="#143434">insurance?</text>
+  <g filter="url(#c-drop)"><rect x="268" y="440" width="454" height="138" rx="26" fill="url(#c-me)"/></g>
+  <text x="300" y="480" fill="#fff">We do &#8212; and I can book</text>
+  <text x="300" y="516" fill="#fff">you with Dr. Patel this</text>
+  <text x="300" y="552" fill="#fff">Thursday at 2:15.</text>
+  <rect x="150" y="602" width="286" height="62" rx="26" fill="#dcecec"/>
+  <text x="182" y="642" fill="#143434">Perfect, book it</text>
+  <g filter="url(#c-drop)"><rect x="150" y="690" width="572" height="126" rx="24" fill="#fff"/></g>
+  <circle cx="210" cy="753" r="29" fill="#2c6d6d"/>
+  <path d="M198 753l8 9 17-19" fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="258" y="743" font-size="26" font-weight="700" fill="#143434">Appointment confirmed</text>
+  <text x="258" y="781" font-size="23" fill="#2c6d6d">Thu 2:15 PM &#183; Dr. Patel</text>
+  <rect x="150" y="842" width="146" height="58" rx="29" fill="#dcecec"/>
+  <circle cx="192" cy="871" r="8" fill="#4a9494"/><circle cx="222" cy="871" r="8" fill="#4a9494" opacity=".62"/><circle cx="252" cy="871" r="8" fill="#4a9494" opacity=".34"/>
+  <rect x="150" y="928" width="572" height="62" rx="31" fill="#fff" stroke="#cfe6e6" stroke-width="2"/>
+  <text x="182" y="967" font-size="23" fill="#8aa8a8">Ask anything&#8230;</text>
+  <circle cx="688" cy="959" r="25" fill="#2c6d6d"/>
+  <path d="M679 959h18M690 951l8 8-8 8" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g filter="url(#c-drop)"><rect x="286" y="1098" width="308" height="72" rx="36" fill="#1f5a5a"/></g>
+<circle cx="332" cy="1134" r="9" fill="#9089f0"/>
+<text x="440" y="1144" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="29" font-weight="700" fill="#fff" letter-spacing="1">INSTANT REPLY</text>
+</g>
+</svg>

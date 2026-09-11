@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1200" width="880" height="1200" role="img">
+<defs>
+  <linearGradient id="w-room" x1="0" y1="0" x2="0.32" y2="1">
+    <stop offset="0" stop-color="#e8f4f4"/><stop offset=".5" stop-color="#b4d8d8"/><stop offset="1" stop-color="#255f5f"/>
+  </linearGradient>
+  <radialGradient id="w-glow" cx=".4" cy=".28" r=".6">
+    <stop offset="0" stop-color="#fff" stop-opacity=".82"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="w-phone" x1="0" y1="0" x2=".3" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".98"/><stop offset="1" stop-color="#e4f2f2" stop-opacity=".95"/>
+  </linearGradient>
+  <linearGradient id="w-head" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4a9494"/><stop offset="1" stop-color="#1f5a5a"/>
+  </linearGradient>
+  <linearGradient id="w-out" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5aa0a0"/><stop offset="1" stop-color="#2c6d6d"/>
+  </linearGradient>
+  <filter id="w-soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+  <filter id="w-lift" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="26" stdDeviation="32" flood-color="#123c3c" flood-opacity=".32"/></filter>
+  <filter id="w-drop" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#123c3c" flood-opacity=".18"/></filter>
+</defs>
+<rect width="880" height="1200" fill="url(#w-room)"/>
+<g id="safe-fit" transform="translate(440,600) scale(0.86) translate(-440,-600)">
+
+
+<ellipse cx="360" cy="220" rx="330" ry="250" fill="url(#w-glow)"/>
+<g filter="url(#w-soft)" opacity=".45">
+  <circle cx="770" cy="250" r="72" fill="#fff" opacity=".38"/>
+  <circle cx="110" cy="620" r="58" fill="#a8cccc" opacity=".5"/>
+</g>
+<ellipse cx="440" cy="1092" rx="242" ry="32" fill="#123c3c" opacity=".24" filter="url(#w-soft)"/>
+<g filter="url(#w-lift)">
+  <rect x="196" y="140" width="488" height="944" rx="56" fill="url(#w-phone)"/>
+  <path d="M196 196a56 56 0 0 1 56-56h376a56 56 0 0 1 56 56v52H196z" fill="url(#w-head)"/>
+  <rect x="196" y="228" width="488" height="30" fill="#255f5f"/>
+</g>
+<circle cx="256" cy="196" r="27" fill="#fff" fill-opacity=".26"/>
+<text x="302" y="190" font-family="Inter,system-ui,sans-serif" font-size="27" font-weight="700" fill="#fff">Northside Clinic</text>
+<text x="302" y="222" font-family="Inter,system-ui,sans-serif" font-size="21" fill="#c8e2e2">online</text>
+<g font-family="Inter,system-ui,sans-serif" font-size="24">
+  <g filter="url(#w-drop)"><path d="M240 300h348a22 22 0 0 1 22 22v96a22 22 0 0 1-22 22H240a22 22 0 0 1-22-22v-74z" fill="url(#w-out)"/></g>
+  <text x="248" y="342" fill="#fff">Hi Maria &#8212; reminder:</text>
+  <text x="248" y="376" fill="#fff">Tue 10:00 with Dr. Osei.</text>
+  <text x="248" y="410" fill="#fff">Reply YES to confirm.</text>
+  <path d="M640 476H332a22 22 0 0 0-22 22v50a22 22 0 0 0 22 22h308a22 22 0 0 0 22-22v-32z" fill="#dcecec"/>
+  <text x="588" y="538" text-anchor="end" font-size="25" font-weight="600" fill="#143434">YES</text>
+  <path d="M606 530l7 8 14-16" fill="none" stroke="#2c6d6d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#w-drop)"><path d="M240 606h352a22 22 0 0 1 22 22v70a22 22 0 0 1-22 22H240a22 22 0 0 1-22-22v-48z" fill="url(#w-out)"/></g>
+  <text x="248" y="652" fill="#fff">Confirmed. See you Tue.</text>
+  <text x="248" y="688" fill="#fff">Tap to reschedule anytime.</text>
+  <g filter="url(#w-drop)"><rect x="290" y="762" width="300" height="66" rx="33" fill="#fff"/></g>
+  <text x="440" y="804" text-anchor="middle" font-size="25" font-weight="600" fill="#1f5a5a">Reschedule</text>
+  <g filter="url(#w-drop)"><rect x="240" y="856" width="400" height="94" rx="24" fill="#fff"/></g>
+  <circle cx="294" cy="903" r="25" fill="#2c6d6d"/>
+  <path d="M283 903l8 9 15-17" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="334" y="895" font-size="24" font-weight="700" fill="#143434">No-show prevented</text>
+  <text x="334" y="928" font-size="21" fill="#2c6d6d">Seat kept, revenue saved</text>
+</g>
+<g filter="url(#w-drop)"><rect x="268" y="1112" width="344" height="72" rx="36" fill="#1f5a5a"/></g>
+<circle cx="316" cy="1148" r="9" fill="#9089f0"/>
+<text x="440" y="1158" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="28" font-weight="700" fill="#fff" letter-spacing="1">TWO-WAY TEXTS</text>
+</g>
+</svg>

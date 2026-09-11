@@ -1,0 +1,29 @@
+Options -MultiViews
+RewriteEngine On
+
+Header always set Vary Cookie
+
+RewriteRule ^(?:servio-ai-agents|cura-ai-agents)(?:/|$) - [R=404,END]
+RewriteRule ^api(?:/|$) - [END]
+RewriteRule ^index\.php$ - [END]
+
+RewriteCond %{QUERY_STRING} (^|&)utm_source=[^&]*(&|$) [NC]
+RewriteRule ^$ index.php [END]
+
+RewriteCond %{HTTP:Cookie} !(^|;[[:space:]]*)site=(?:servio|cura)(?:;|$) [NC]
+RewriteRule ^$ index.php [END]
+
+RewriteCond %{HTTP:Cookie} (^|;[[:space:]]*)site=servio(?:;|$) [NC]
+RewriteRule ^$ servio-ai-agents/index.html [END]
+
+RewriteCond %{HTTP:Cookie} (^|;[[:space:]]*)site=cura(?:;|$) [NC]
+RewriteRule ^$ cura-ai-agents/index.html [END]
+
+RewriteCond %{HTTP:Cookie} !(^|;[[:space:]]*)site=(?:servio|cura)(?:;|$) [NC]
+RewriteRule ^ - [R=404,END]
+
+RewriteCond %{HTTP:Cookie} (^|;[[:space:]]*)site=servio(?:;|$) [NC]
+RewriteRule ^(.+)$ servio-ai-agents/$1 [END]
+
+RewriteCond %{HTTP:Cookie} (^|;[[:space:]]*)site=cura(?:;|$) [NC]
+RewriteRule ^(.+)$ cura-ai-agents/$1 [END]

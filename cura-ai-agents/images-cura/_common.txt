@@ -1,0 +1,4 @@
+palette:
+  #9089f0 primary   #4e389b deep   #6f66e8 mid
+  #eff0fe tint1     #e2e4fd tint2  #cbcdfa tint3
+  #1a1a1a ink       #ffffff white

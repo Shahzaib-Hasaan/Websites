@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1200" width="880" height="1200" role="img">
+<defs>
+  <linearGradient id="v-room" x1="0" y1="0" x2="0.35" y2="1">
+    <stop offset="0" stop-color="#e8f4f4"/><stop offset=".52" stop-color="#bcdcdc"/><stop offset="1" stop-color="#2c6d6d"/>
+  </linearGradient>
+  <radialGradient id="v-glow" cx=".5" cy=".38" r=".62">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="v-disc" x1=".15" y1="0" x2=".85" y2="1">
+    <stop offset="0" stop-color="#5fa5a5"/><stop offset=".5" stop-color="#2c6d6d"/><stop offset="1" stop-color="#1f5a5a"/>
+  </linearGradient>
+  <linearGradient id="v-sheen" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="v-card" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#eaf5f5" stop-opacity=".92"/>
+  </linearGradient>
+  <filter id="v-soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="26"/>
+  </filter>
+  <filter id="v-lift" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="30" flood-color="#123c3c" flood-opacity=".30"/>
+  </filter>
+  <filter id="v-drop" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#123c3c" flood-opacity=".20"/>
+  </filter>
+</defs>
+<rect width="880" height="1200" fill="url(#v-room)"/>
+<g id="safe-fit" transform="translate(440,600) scale(0.86) translate(-440,-600)">
+
+
+
+<ellipse cx="300" cy="250" rx="300" ry="230" fill="url(#v-glow)"/>
+<!-- depth-of-field bokeh -->
+<g filter="url(#v-soft)" opacity=".5">
+  <circle cx="726" cy="176" r="86" fill="#e8f4f4" opacity=".55"/>
+  <circle cx="126" cy="470" r="66" fill="#ffffff" opacity=".35"/>
+  <circle cx="800" cy="452" r="52" fill="#a8cccc" opacity=".5"/>
+</g>
+<!-- soft floor shadow under the disc -->
+<ellipse cx="440" cy="712" rx="228" ry="34" fill="#123c3c" opacity=".20" filter="url(#v-soft)"/>
+
+<!-- call rings -->
+<g fill="none" stroke="#ffffff" stroke-linecap="round">
+  <circle cx="440" cy="470" r="176" stroke-opacity=".34" stroke-width="2.5"/>
+  <circle cx="440" cy="470" r="238" stroke-opacity=".22" stroke-width="2.5"/>
+  <circle cx="440" cy="470" r="304" stroke-opacity=".12" stroke-width="2.5"/>
+</g>
+
+<!-- handset disc -->
+<g filter="url(#v-lift)">
+  <circle cx="440" cy="470" r="122" fill="url(#v-disc)"/>
+  <circle cx="440" cy="470" r="122" fill="url(#v-sheen)"/>
+  <circle cx="440" cy="470" r="121" fill="none" stroke="#ffffff" stroke-opacity=".38" stroke-width="2"/>
+  <path d="M396 424c0-10 8-18 18-18h22c8 0 15 6 17 13l8 29c2 8-1 16-8 20l-14 10c12 24 32 44 56 56l10-14c4-7 12-10 20-8l29 8c7 2 13 9 13 17v22c0 10-8 18-18 18-70 0-153-83-153-153z" fill="#fff"/>
+</g>
+
+<!-- waveform -->
+<g stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity=".92">
+  <line x1="228" y1="788" x2="228" y2="820"/><line x1="266" y1="772" x2="266" y2="836"/>
+  <line x1="304" y1="744" x2="304" y2="864"/><line x1="342" y1="714" x2="342" y2="894"/>
+  <line x1="380" y1="756" x2="380" y2="852"/><line x1="418" y1="726" x2="418" y2="882"/>
+  <line x1="456" y1="700" x2="456" y2="908"/><line x1="494" y1="726" x2="494" y2="882"/>
+  <line x1="532" y1="756" x2="532" y2="852"/><line x1="570" y1="714" x2="570" y2="894"/>
+  <line x1="608" y1="744" x2="608" y2="864"/><line x1="646" y1="772" x2="646" y2="836"/>
+</g>
+
+<!-- booked chips -->
+<g font-family="Inter,system-ui,sans-serif" font-size="26" font-weight="600" filter="url(#v-drop)">
+  <g><rect x="146" y="960" width="272" height="74" rx="37" fill="url(#v-card)"/>
+     <circle cx="192" cy="997" r="17" fill="#2c6d6d"/>
+     <path d="M184 997l6 6 11-12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="224" y="1006" fill="#143434">9:00 booked</text></g>
+  <g><rect x="446" y="960" width="288" height="74" rx="37" fill="url(#v-card)"/>
+     <circle cx="492" cy="997" r="17" fill="#2c6d6d"/>
+     <path d="M484 997l6 6 11-12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="524" y="1006" fill="#143434">11:30 booked</text></g>
+</g>
+
+<!-- status pill -->
+<g filter="url(#v-drop)"><rect x="326" y="1076" width="228" height="76" rx="38" fill="#1f5a5a"/></g>
+<circle cx="374" cy="1114" r="9" fill="#9089f0"/>
+<text x="470" y="1124" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="31" font-weight="700" fill="#fff" letter-spacing="1">24/7 LIVE</text>
+</g>
+</svg>
